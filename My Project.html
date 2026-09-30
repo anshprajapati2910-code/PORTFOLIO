@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ansh Prajapati | Portfolio</title>
+
+    <style>
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            background-color: #f9f9f9;
+        }
+
+
+        .container {
+            max-width: 1000px; 
+            margin: 0 auto;    
+            padding: 20px;     
+        }
+
+
+        header {
+            background-color: white; 
+            border-bottom: 2px solid #eeeeee; 
+            position: sticky; 
+            top: 0;
+        }
+
+        nav {
+            display: flex; 
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            color: #0056b3; 
+            text-decoration: none;
+        }
+
+        .nav-links {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+
+        .nav-links a:hover {
+            color: #0056b3;
+        }
+
+        
+        section {
+            padding-top: 60px;
+            padding-bottom: 60px;
+        }
+
+        .section-title {
+            text-align: center; 
+            font-size: 32px;
+            margin-bottom: 30px;
+            color: #0056b3;
+        }
+
+       
+        .about-content {
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+
+        .about-content h2 {
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+
+        .about-content p {
+            font-size: 18px;
+            margin-bottom: 15px;
+        }
+
+        .highlight {
+            color: #0056b3;
+            font-weight: bold;
+        }
+
+        
+        .skills-grid {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .skill-box {
+            background-color: white;
+            padding: 20px;
+            border: 2px solid #0056b3;
+            border-radius: 8px;
+            font-weight: bold;
+            text-align: center;
+            width: 250px;
+        }
+
+        
+        .projects-grid {
+            display: flex;
+            gap: 30px;
+            flex-wrap: wrap;
+        }
+
+        .project-card {
+            background-color: white;
+            border-radius: 10px;
+            padding: 25px;
+            flex: 1; 
+            min-width: 300px; 
+            box-shadow: 0 4px 8px rgba(53, 3, 3, 0.1);
+        }
+
+        .project-card h3 {
+            color: #0056b3;
+            margin-bottom: 10px;
+        }
+
+        
+        .contact-form {
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            max-width: 600px;
+            margin: 0 auto; 
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+
+        
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-family: inherit; 
+        }
+
+        
+        button {
+            background-color: #0056b3;
+            color: white;
+            padding: 10px 20px;
+            border: none; 
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        button:hover {
+            background-color: #004494; 
+        }
+
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: white;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+
+<body>
+    
+    <header>
+        <nav>
+            <a href="#" class="logo">Ansh Prajapati</a>
+            
+            <ul class="nav-links">
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        
+        <section id="about">
+            <div class="container">
+                
+                <div class="about-content">
+                    <h2>Hello! I'm Ansh Prajapati</h2>
+                    
+                    <p>I am an aspiring software engineer passionate about writing clean code and solving complex problems.</p>
+                    
+                    <p>Currently, I am a student at the <span class="highlight">Scaler School of Technology</span> in Bengaluru, immersing myself in practical, industry-focused software development.</p>
+                    
+                    <p>Alongside this, I am pursuing my <span class="highlight">B.Sc. in Computer Science from BITS Pilani</span>, building a strong academic foundation in computer science principles.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" style="background-color: #eeeeee;"> 
+            <div class="container">
+                <h2 class="section-title">My Skills</h2>
+                
+                <div class="skills-grid">
+                    
+                    <div class="skill-box">
+                        🐍 Python Programming
+                    </div>
+                    
+                    <div class="skill-box">
+                        🏆 Competitive Programming
+                    </div>
+                    
+                    <div class="skill-box">
+                        💻 HTML & CSS (Web Design)
+                    </div>
+                    
+                    <div class="skill-box">
+                        ⚙️ Java Programming
+                    </div>
+
+                    <div class="skill-box">
+                        ⚡C Programming
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects">
+            <div class="container">
+                <h2 class="section-title">My Projects</h2>
+                
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <h3>Beginner Python Calculator App</h3>
+                        <p>A simple, interactive application built using Python. This project demonstrates my understanding of fundamental programming concepts like loops, variables, and logic.</p>
+                    </div>
+
+                    <div class="project-card">
+                        <h3>Basic RAG System</h3>
+                        <p>An introductory project exploring Retrieval-Augmented Generation (RAG). This demonstrates my early interest in Artificial Intelligence and how we can make AI assistants smarter by providing them with specific knowledge.</p>
+                    </div>
+                
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="container">
+                <h2 class="section-title">Contact Me</h2>
+                
+                <div class="contact-form">
+                    <form>
+                        <label for="name">Your Name:</label>
+                        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+                        <label for="email">Your Email:</label>
+                        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+                        <label for="phone">Your Contact No:</label>
+                        <input type="tel" id="phone" name="phone" placeholder="Enter your contact no." maxlength="10" required>
+
+                        <label for="message">Your Message:</label>
+                        <textarea id="message" name="message" rows="5" placeholder="Say hello!" required></textarea>
+
+                        
+
+                        <button type="submit">Send Message</button>
+
+
+                    </form>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Ansh Prajapati, Built with pure HTML & CSS</p>
+    </footer>
+
+</body>
+</html>
